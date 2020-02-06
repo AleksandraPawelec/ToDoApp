@@ -1,0 +1,96 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background: #ffb75e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ed8f03,
+    #ffb75e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ed8f03,
+    #ffb75e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+h2 {
+  letter-spacing: 3px;
+}
+
+h2.first {
+  color: white;
+  font-size: 30px;
+}
+button {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border: 10px rgb(241, 180, 123);
+  border-radius: 28px;
+  cursor: pointer;
+  transition: 0.03s;
+}
+button:hover {
+  background-color: rgb(255, 165, 0);
+}
+
+.done {
+  margin: 0 15px;
+  left: 60%;
+}
+
+.x {
+  margin: 0 15px;
+  left: 65%;
+  line-height: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 600px) {
+  .done {
+    margin: 0 15px;
+    left: 78%;
+  }
+
+  .x {
+    margin: 0 15px;
+    left: 94%;
+  }
+}
+
+@media (min-width: 580px) {
+  .done {
+    margin: 0 15px;
+    left: 75%;
+  }
+
+  .x {
+    margin: 0 15px;
+    left: 90%;
+  }
+}
+@media (min-width: 900px) {
+  .done {
+    margin: 0 15px;
+    left: 65%;
+  }
+
+  .x {
+    margin: 0 15px;
+    left: 73%;
+  }
+}

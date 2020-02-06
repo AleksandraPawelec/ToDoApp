@@ -7,38 +7,38 @@ class App extends Component {
   counter = 4;
   state = {
     tasks: [
-      {
-        id: 0,
-        text: "nauczć się nowego języka",
-        date: "2020-04-01",
-        important: false,
-        active: true,
-        finishDate: null
-      },
-      {
-        id: 1,
-        text: "opłacić rachunki",
-        date: "2020-02-25",
-        important: true,
-        active: true,
-        finishDate: null
-      },
-      {
-        id: 2,
-        text: "oddać projekt",
-        date: "2020-05-10",
-        important: true,
-        active: true,
-        finishDate: null
-      },
-      {
-        id: 3,
-        text: "zapisać się na event",
-        date: "2020-02-12",
-        important: false,
-        active: true,
-        finishDate: null
-      }
+      // {
+      //   id: 0,
+      //   text: "nauczć się nowego języka",
+      //   date: "2020-04-01",
+      //   important: false,
+      //   active: true,
+      //   finishDate: null
+      // },
+      // {
+      //   id: 1,
+      //   text: "opłacić rachunki",
+      //   date: "2020-02-25",
+      //   important: true,
+      //   active: true,
+      //   finishDate: null
+      // },
+      // {
+      //   id: 2,
+      //   text: "oddać projekt",
+      //   date: "2020-05-10",
+      //   important: true,
+      //   active: true,
+      //   finishDate: null
+      // },
+      // {
+      //   id: 3,
+      //   text: "zapisać się na event",
+      //   date: "2020-02-12",
+      //   important: false,
+      //   active: true,
+      //   finishDate: null
+      // }
     ]
   };
   deleteTask = id => {
